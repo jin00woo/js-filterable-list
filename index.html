@@ -4,20 +4,69 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>replit</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+  <title>My Books</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 </head>
 
 <body>
-  Hello world
-  <script src="script.js"></script>
+  <div class="container">
+    <h1 class="center-align">
+      My Books
+    </h1>
 
- <!--
-  This script places a badge on your repl's full-browser view back to your repl's cover
-  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
-  teal, blue, blurple, magenta, pink!
-  -->
-  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
+    <input type="text" id="filterInput" placeholder="Search for a book...">
+
+    <ul id="names" class="collection with-header">
+      <li class="collection-header">
+        <h5>A</h5>
+      </li>
+      <li class="collection-item">
+        <a href="#">Animal Farm</a>
+      </li>
+      <li class="collection-item">
+        <a href="#">Adventures of Huckleberry Finn</a>
+      </li>
+      <li class="collection-item">
+        <a href="#">A Study in Scarlet</a>
+      </li>
+      <li class="collection-item">
+        <a href="#">A Reckless Match</a>
+      </li>
+
+      <li class="collection-header">
+        <h5>B</h5>
+      </li>
+      <li class="collection-item">
+        <a href="#">Beach House</a>
+      </li>
+      <li class="collection-item">
+        <a href="#">Bag of Bones</a>
+      </li>
+      <li class="collection-item">
+        <a href="#">Balancing Act</a>
+      </li>
+      <li class="collection-item">
+        <a href="#">Ballet Shoes</a>
+      </li>
+
+      <li class="collection-header">
+        <h5>C</h5>
+      </li>
+      <li class="collection-item">
+        <a href="#">California</a>
+      </li>
+      <li class="collection-item">
+        <a href="#">Calling Me Home</a>
+      </li>
+      <li class="collection-item">
+        <a href="#">Cane River</a>
+      </li>
+      <li class="collection-item">
+        <a href="#">City of Bones</a>
+      </li>
+    </ul>
+  </div>
+  <script src="script.js"></script>
 </body>
 
 </html>
